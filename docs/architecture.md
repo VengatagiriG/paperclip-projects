@@ -31,7 +31,7 @@ Professional agency website for Paperclip with 5 pages: Home, About, Services, P
 ```
 /design     <- Luna's UI/UX outputs
 /frontend   <- Pixel's React code
-/frontend   <- Forge's Express API
+ /backend    <- Forge's Express API
 /database   <- Atlas's PostgreSQL/Prisma schema
 /docs       <- Architecture, security, documentation
 ```
