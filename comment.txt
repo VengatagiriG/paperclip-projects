@@ -1,0 +1,21 @@
+## Progress Update
+
+### Completed
+- Initialized git repository
+- Created .gitignore (frontend + backend)
+- Added existing README.md
+- Created GitHub Actions CI workflow (.github/workflows/ci.yml)
+- Committed all source files locally
+
+### Remaining (Blocked)
+- **Create GitHub repository** - blocked: no GitHub CLI auth (`gh auth login`) and no GH_TOKEN/GITHUB_TOKEN env vars set
+- **Push to GitHub** - blocked by repo creation
+- **Configure branch protection rules** - blocked by repo creation
+
+### Next Action
+Repository creation requires GitHub authentication. Options:
+1. Provide a GitHub personal access token (set GH_TOKEN env var)
+2. Run `gh auth login` on this machine
+3. Create the repo manually and provide the remote URL
+
+Local commit: `4013b1f` - ready to push once remote is configured.
